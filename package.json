@@ -1,0 +1,23 @@
+{
+  "name": "pokemonjs-core",
+  "version": "0.0.1",
+  "description": "Projeto para reconstrução de forma simplificada da lógica aplicada nos jogos de Pokémon",
+  "main": "index.js",
+  "repository": "git@github.com:lia-dias/pokemonjs-core.git",
+  "author": "Lia Dias <liadias914@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "lint-all": "yarn run eslint index.js src/**/*.js",
+    "lint-all-fix": "yarn run eslint --fix index.js src/**/*.js",
+    "test": "yarn run jest",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "husky": "^7.0.4",
+    "jest": "^27.4.4",
+    "lint-staged": "^12.1.2",
+    "nodemon": "^2.0.15"
+  }
+}
